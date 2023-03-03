@@ -117,7 +117,28 @@ $ python3 runtimes.py --max_x=22
 ```
 and copy/paste the resulting table into this README file below this line.
 
-<!-- add the table here -->
+
+| x | timsort | merge_sorted | quicksorted
+|--|--|--|--|
+|2**0| 4.12e-06 | 2.82e-06 |  2.53e-06 |
+|2**1| 2.60e-06 | 9.91e-06 |  1.11e-05 |
+|2**2| 2.64e-06 | 1.64e-05 |  1.70e-05 |
+|2**3| 3.66e-06 | 3.59e-05 |  3.65e-05 |
+|2**4| 4.65e-06 | 7.99e-05 |  7.96e-05 |
+|2**5| 7.80e-06 | 1.69e-04 |  1.88e-04 |
+|2**6| 1.53e-05 | 3.64e-04 |  4.71e-04 |
+|2**7| 3.06e-05 | 8.59e-04 |  1.02e-03 |
+|2**8| 6.34e-05 | 1.89e-03 |  2.41e-03 |
+|2**9| 1.42e-04 | 4.17e-03 |  5.07e-03 |
+|2**10| 3.19e-04 | 9.21e-03 |  1.21e-02 |
+|2**11| 6.75e-04 | 2.02e-02 |  2.48e-02 |
+|2**12| 1.46e-03 | 4.32e-02 |  5.31e-02 |
+|2**13| 3.23e-03 | 9.40e-02 |  1.23e-01 |
+|2**14| 7.06e-03 | 2.08e-01 |  2.54e-01 |
+|2**15| 1.55e-02 | 3.96e-01 |  4.28e-01 |
+|2**16| 3.53e-02 | 8.23e-01 |  1.09e+00 |
+|2**17| 7.85e-02 | 1.93e+00 |  2.14e+00 |
+|2**18| 1.83e-01 | 3.95e+00 |  5.29e+00 |
 
 You should observe that python's built-in sort function is 10-100x faster than yours.
 All functions have the same wort-case asymptotic complexity (i.e. $\Theta(n \log n)$),
